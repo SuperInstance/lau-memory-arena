@@ -1,0 +1,10 @@
+[package]
+name = "lau-memory-arena"
+version = "0.1.0"
+edition = "2021"
+description = "Custom arena allocator for game entities — pre-allocated pools, generation-based IDs, no runtime alloc on hot path."
+
+[lib]
+name = "lau_memory_arena"
+
+[dependencies]
